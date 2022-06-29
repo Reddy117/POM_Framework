@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28205" started-at="2022-06-29T17:48:31 IST" finished-at="2022-06-29T17:48:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28205" started-at="2022-06-29T17:48:31 IST" finished-at="2022-06-29T17:48:59 IST">
+      <class name="com.orange.scripts.TS1_PIMTests">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.orange.scripts.TS1_PIMTests@75881071]" name="openApp" is-config="true" duration-ms="7752" started-at="2022-06-29T17:48:32 IST" finished-at="2022-06-29T17:48:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="addEmployeeFromPIM(java.util.HashMap)[pri:1, instance:com.orange.scripts.TS1_PIMTests@75881071]" name="addEmployeeFromPIM" duration-ms="19650" started-at="2022-06-29T17:48:40 IST" data-provider="getAddEmployeefromPIMData" finished-at="2022-06-29T17:48:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{LastName=Nayak, FirstName=Bheemla3, TestFlag=Yes}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeFromPIM -->
+      </class> <!-- com.orange.scripts.TS1_PIMTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
